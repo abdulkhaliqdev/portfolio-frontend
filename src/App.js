@@ -1,9 +1,10 @@
 import React from "react";
 
-const App = () => (
+const App = () => ( 
   <div>
-    <h1>Hello</h1>
-  </div>
+    <h1> Hello </h1> 
+    <button type="button" className="btn btn-primary"> Primary </button> 
+    </div>
 );
 
 
