@@ -1,11 +1,13 @@
 import React from "react";
+// import Header
+import Header from "./components/Header/Header";
+import Main from "./components/Main/main";
 
-const App = () => ( 
+const App = () => (
   <div>
-    <h1> Hello </h1> 
-    <button type="button" className="btn btn-primary"> Primary </button> 
-    </div>
+    <Header />
+    <Main />
+  </div>
 );
-
 
 export default App;
